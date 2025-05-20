@@ -1,0 +1,134 @@
+body{
+    margin: 50px auto;
+    width: 70%;
+    padding: 5%;
+    margin-left: 150px;
+    background-color: rgb(248, 248, 170);
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+#CAJAPADRE{
+    border: 3px solid blue;
+    padding: 5px;
+    width: 850px;
+    height: 850px;
+    background-color: white;
+}
+#CABECERA img{
+    height: 150px;
+    width: 300px;
+}
+#CABECERA{
+    display: flex;
+    border-bottom: 2px solid green;
+    padding: 10px;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: end;
+}
+#MENU{
+    margin-right: 30px;
+}
+#MENU a{
+    margin-right: 50px;
+    padding: 10px;
+    color: darkslategray;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 2px;
+    margin-right: 1px;
+    display: inlie-block;
+    font-weight: bold;
+}
+#MENU a:hover{
+    background-color: dimgray;
+    color: white;
+}
+.DIBUJITO{
+    height: 100px;
+    width: 100px;
+}
+#CONTENIDO{
+    max-width: 1000px;
+    height: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 2px solid green;
+}
+
+.CAJAFIRST{
+    width: 400px ;
+    height: 250px;
+    margin: 7px;
+    padding: 2px;
+    text-align: justify;
+}
+.CAJAFIRST img{
+    float: left;
+}
+.CAJAFIRST span{
+    background-color: yellow;
+}
+#TITULO1,#TITULO2,#TITULO3,#TITULO4{
+    color: white;
+    text-align: center;
+}
+#TITULO1{
+    background-color: orangered;
+}
+#TITULO2{
+    background-color: orange;
+}
+#TITULO3{
+    background-color: rgb(28, 72, 218);
+}
+#TITULO4{
+    background-color: rgb(85, 49, 85);
+}
+.ALINEAR img{
+    max-height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+.ALINEAR p{
+    color:blue;
+}
+#HTTPS img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#CAJABOT{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 240, 240);
+    height: 100px;
+    margin: 10px;
+}
+#ICONOS img{
+    height: 50px;
+}
+#ROJO{
+    color: red;
+}
+#GREEN{
+    color: green;
+}
+#BLUE{
+    color: blue;
+}
+#FONDOISIL{
+    background-color: rgb(0, 174, 255);
+}
+
+
+
+
+
+
+
+
